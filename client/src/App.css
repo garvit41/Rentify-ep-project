@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+/* ---------------------------
+   Global scroll & scrollbar
+----------------------------*/
+
+/* Smooth scrolling globally */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Poore project ke scrollbars hide */
+* {
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE 10+ */
+}
+
+*::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, Edge */
+}
+
+/* ---------------------------
+   Base styles
+----------------------------*/
+
+body {
+	font-family: "Inter", "Roboto", sans-serif;
+	background-color: #f7f7f7; /* subtle light background */
+	color: #111827; /* dark text for contrast */
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* ---------------------------
+   Links
+----------------------------*/
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* ---------------------------
+   Buttons
+----------------------------*/
+button {
+	cursor: pointer;
+	background: none;
+	font-family: inherit;
+	outline: none;
+}
+
+/* ---------------------------
+   Global transitions
+----------------------------*/
+* {
+	transition: all 0.3s ease-in-out;
+}
