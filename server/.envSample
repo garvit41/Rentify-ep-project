@@ -1,4 +1,4 @@
-MONGO_URL=
+MONGO_URL="mongodb+srv://goyalgarvit1411:GARVITGOYALgarvitgoyal@cluster0.i85jskt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 JWT_SECRET="abcd1234"
 PORT=1565
 DB_NAME="Renfity"
